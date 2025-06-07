@@ -10,7 +10,7 @@ namespace NexusPoint.Controllers;
 /// LocationController
 /// </summary>
 [ApiController]
-[Route("api/[controller]")]
+[Route("/[controller]")]
 public class LocationController(
     ILocationService locationService,
     IWebHostEnvironment webHostEnvironment
