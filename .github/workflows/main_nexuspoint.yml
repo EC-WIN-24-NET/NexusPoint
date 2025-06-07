@@ -64,6 +64,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: "CloakVision"
+          app-name: "Nexuspoint"
           slot-name: "Production"
           package: ./publish
